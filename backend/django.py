@@ -88,7 +88,7 @@ django-admin makemessages                # Runs over the entire source tree of t
 django-admin help                        # display usage information and a list of the commands provided by each application
 django-admin makemigrations              # create new migrations to the database based on the changes detected in the models
 django-admin migrate                     # synchronize the database state with your current state project models and migrations
-django-admin migrate <app_name> zero     # resets/deletes the migration files for <app_name>, used to reset faulty migration files and solve db errors. To clear migrations from all project, use the command on all apps.
+django-admin migrate <Appname> zero      # resets/deletes the migration files for <app_name>, used to reset faulty migration files and solve db errors. To clear migrations from all project, use the command on all apps.
 django-admin remove_stale_contenttypes   # Deletes stale content types (from deleted models) in your database.y.
 django-admin runserver <port>            # start the development webserver at 127.0.0.1 with the port <port> default 8000
 django-admin sendtestemail               # Sends a test email to the email addresses specified as arguments.
